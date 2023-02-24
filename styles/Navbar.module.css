@@ -1,0 +1,130 @@
+.nav {
+    /* background-color: #e02525; */
+    color: #fff;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.nav .active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav .active a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.nav .active .orangedot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--col1);
+    border-radius: 50%;
+    margin: 0 10px;
+    position: absolute;
+    bottom: -10px;
+}
+
+.nav .inactive {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav .inactive a {
+    color: rgb(149, 149, 149);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav .inactive p {
+    color: var(--col1);
+    position: absolute;
+    bottom: -20px;
+    width: 100px;
+}
+
+.nav .searchcontout {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(190, 190, 190);
+    max-width: 600px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.nav .searchcontout svg {
+    margin-right: 5px;
+    width: 30px;
+    height: 20px;
+}
+
+.nav .searchcont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav .searchcont input {
+    border: none;
+    width: '100%';
+    outline: none;
+}
+
+.nav .searchcontout .slash {
+    background-color: rgb(219, 219, 219);
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+
+.nav .statusbtn{
+    background-color: rgba(60, 170, 42, 0.2);
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0px 20px;
+    border-radius: 5px;
+}
+.nav .statusbtn .greendot{
+    width: 10px;
+    height: 10px;
+    background-color: #3caa2a;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.nav .statusbtn p{
+    color: #3caa2a;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.nav .righticons svg{
+    margin: 0 10px;
+    width: 30px;
+    color: #000;
+}

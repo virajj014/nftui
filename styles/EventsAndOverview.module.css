@@ -1,0 +1,352 @@
+.eventsandoverview {
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 100px;
+    display: flex;
+}
+
+.eventsandoverview .events {
+    width: 80%;
+    /* background-color: blue; */
+}
+
+.eventsandoverview .events h1 {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #838383;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px 20px;
+}
+
+.eventsandoverview .events .card {
+    border: 1px solid #e0e0e0;
+    margin: 20px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.backimg {
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.filter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.333);
+    z-index: 2;
+    backdrop-filter: blur(30px);
+}
+
+.events .cardin {
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.events .cardinleft{
+    width: 70%;
+}
+
+.events .row1 {
+    display: flex;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+.events .row1 svg {
+    width: 30px;
+}
+
+.events .greenbtn {
+    background-color: #3CAA2A;
+    height: min-content;
+    padding: 10px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.events .greenbtn p {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.events .greenbtn svg {
+    color: white;
+    margin-right: 5px;
+}
+
+
+.events .bluebtn {
+    background-color: #28458F;
+    height: min-content;
+    padding: 10px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.events .bluebtn p {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.events .bluebtn svg {
+    color: white;
+    margin-right: 5px;
+}
+
+
+.events .weather {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.events .weather svg {
+    width: 24px;
+    margin-right: 5px;
+}
+
+.events .weather p {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.events .date {
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.events .date svg {
+    width: 24px;
+    margin-right: 5px;
+
+}
+
+.events .date h2 {
+    font-size: 17px;
+    font-weight: 800;
+    margin-right: 10px;
+    color: #444444;
+}
+
+.events .row2 {
+    display: flex;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+.events .row2 .fruits {
+    height: 30px;
+    object-fit: contain;
+    width: 100px;
+}
+
+.events .row2 p {
+    color: rgb(19, 19, 19);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.events .row3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 10px;
+}
+
+.events .row3 h2 {
+    display: flex;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.events .row3 p {
+    color: gray;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.events .row4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.events .row4 div {
+    display: flex;
+    margin: 0px 20px;
+}
+
+.events .row4 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.events .row4 span{
+    color: black;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.events .fillout{
+    width: 100%;
+    height: 15px;
+    background-color: #919191;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.events .fillin{
+    width: 70%;
+    height: 15px;
+    background: linear-gradient(270deg, rgba(246, 255, 66, 0.5) 0%, rgba(255, 31, 31, 0.5) 100%), #FF4800;
+    border-radius: 20px;
+}
+
+.events .fillin1{
+    width: 90%;
+    height: 15px;
+    background: linear-gradient(270deg, rgba(246, 255, 66, 0.5) 0%, rgba(255, 31, 31, 0.5) 100%), #FF4800;
+    border-radius: 20px;
+}
+.events .row5{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.events .btnblack{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+    border: 1px solid black;
+
+}
+
+.events .btnwhite{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.events .row5 div{
+    display: flex;
+    margin: 0px 10px;
+}
+
+.events .row5 div p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+
+/* /////////////////////////////// */
+.cardinright{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #3CAA2A; */
+}
+
+.cardinright .img1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.overview{
+    width: 20%;
+    padding: 10px;
+}
+.overview h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0px;
+    color: #585858;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.overview .overviewcard{
+    border: 1px solid #d6d6d6;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+.overview .overviewcard h3{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 10px 0px;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.overview .overviewcard div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.overview .overviewcard p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #585858;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.overview .overviewcard span{
+    font-size: 16px;
+    font-weight: 600;
+    color: #585858;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.overview .overviewcard svg{
+    width: 20px;
+}
